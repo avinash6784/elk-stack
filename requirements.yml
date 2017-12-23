@@ -1,0 +1,13 @@
+---
+  
+# dependency Elasticsearch role.
+ - src: https://github.com/avinash6784/ansible-role-elasticsearch.git
+   name: ansible-role-elasticsearch
+   
+# dependency Logstash role.
+ - src: https://github.com/avinash6784/ansible-role-logstash.git
+   name: ansible-role-logstash
+
+# dependency Kibana role.
+ - src: https://github.com/avinash6784/ansible-role-kibana.git
+   name: ansible-role-kibana
